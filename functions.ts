@@ -16,7 +16,15 @@ let mySum = function(num1:any, num2:any):number {
 // console.log(mySum("3",5))
 
 function getName(firstName:string, lastName?:string):string {
+    if(lastName == undefined){
+        return firstName;
+    }
     return firstName + ' ' + lastName;
 }
 
-console.log(getName("John", "Doe"));
+console.log(getName("John"));
+
+
+function myVoid(): void {
+    return;
+}
