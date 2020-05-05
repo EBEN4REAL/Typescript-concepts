@@ -12,4 +12,7 @@ age = 77;
 strArr = ["Een", "Josh"];
 numsArr = [1, 2, 3, 4];
 tupsArr = ["Eben", 29, true];
-console.log(someStr, myNum, myBool, age, strArr, numsArr, tupsArr);
+var myVoid = null;
+var myNull = undefined;
+var myUndefined = null;
+console.log(myVoid);

@@ -16,4 +16,8 @@ strArr = ["Een", "Josh"];
 numsArr = [1,2,3,4];
 tupsArr = ["Eben", 29, true];
 
-console.log(someStr, myNum, myBool, age, strArr, numsArr, tupsArr);
+let myVoid: void = null;
+let myNull: null = undefined;
+let myUndefined: undefined = null;
+
+console.log(myVoid);
