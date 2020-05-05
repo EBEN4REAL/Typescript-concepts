@@ -5,3 +5,15 @@ function showTodo(todo: {title: string, text: string}) {
 let myTodo = {title: "Trash", text: "take out trash"}
 
 showTodo(myTodo);
+
+interface Todo {
+    title: string;
+    text: string;
+}
+
+function showTodop(todo: Todo) {
+    console.log(todo.title + ": " + todo.text)
+}
+let myTodop = {title: "Trash", text: "take out trash"}
+
+showTodo(myTodo);
