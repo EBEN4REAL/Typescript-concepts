@@ -16,8 +16,8 @@ strArr = ["Een", "Josh"];
 numsArr = [1,2,3,4];
 tupsArr = ["Eben", 29, true];
 
-let myVoid: void = null;
-let myNull: null = undefined;
-let myUndefined: undefined = null;
+ let myVoid: void = null;
+ let myNull: null = undefined;
+ let myUndefined: undefined = null;
 
-console.log(myVoid);
+console.log(myNum);

@@ -15,4 +15,4 @@ tupsArr = ["Eben", 29, true];
 var myVoid = null;
 var myNull = undefined;
 var myUndefined = null;
-console.log(myVoid);
+console.log(myNum);

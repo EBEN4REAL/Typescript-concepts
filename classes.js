@@ -21,6 +21,9 @@ var User = /** @class */ (function () {
     User.prototype.register = function () {
         console.log(this.name + "Is now registered");
     };
+    User.addUser = function () {
+        console.log(this.name + "User has been added successfully!");
+    };
     User.prototype.payInvoice = function () {
         console.log(this.name + ' paid invoice');
     };
@@ -38,7 +41,5 @@ var Member = /** @class */ (function (_super) {
     };
     return Member;
 }(User));
-// let john = new User("john Doe", "joes@gmail.com", 90);
-// john.register();
 var mike = new Member(1, "Mike Smith", 'mike@gmail.com', 30);
-mike.payInvoice();
+Member.addUser();

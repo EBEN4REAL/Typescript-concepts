@@ -6,7 +6,7 @@ interface UserInterface {
     payInvoice();
 }
 
-class User {
+class User implements UserInterface {
     private name: string;
     private email: string;
     public age: number;
@@ -21,6 +21,10 @@ class User {
 
     public  register() {
         console.log(this.name + "Is now registered");
+    }
+
+    static addUser(){
+        console.log(this.name + "User has been added successfully!");
     }
 
     payInvoice() {
@@ -38,12 +42,12 @@ class Member extends User {
     payInvoice(){
         super.payInvoice();
     }
+
+    
 }
 
-// let john = new User("john Doe", "joes@gmail.com", 90);
 
-// john.register();
 
 let mike  = new Member(1, "Mike Smith", 'mike@gmail.com', 30);
 
-mike.payInvoice();
+Member.addUser();
